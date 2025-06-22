@@ -65,7 +65,7 @@ Example inputs:
 
  
 hash_cracker.py
-    usage: python3 hash_cracker.py <hash> <wordlist.txt>
+    writing style: python3 hash_cracker.py <hash> <wordlist.txt>
     where <hash> is the hashed string you want to crack (MD5, SHA1, etc.)
     and <wordlist.txt> is a text file with one password candidate per line.
     The script hashes each candidate and compares it with the target hash to find a match.
